@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="box">
+            <div class="row-head">
+                <input type="text" id="display"></input>
+                <input type="button" class="block" value="c" onclick="c()"></input>
+            </div>
+
+            <div class="row">
+                <input type="button" class="block" value="7" onclick="disp('7')"></input>
+                <input type="button" class="block" value="8" onclick="disp('8')"></input>
+                <input type="button" class="block" value="9" onclick="disp('9')"></input>
+                <input type="button" class="block" value="/" onclick="disp('/')"></input>
+            </div>
+
+            <div class="row">
+                <input type="button" class="block" value="4" onclick="disp('4')"></span>
+                <input type="button" class="block" value="5" onclick="disp('5')"></span>
+                <input type="button" class="block" value="6" onclick="disp('6')"></span>
+                <input type="button" class="block" value="*" onclick="disp('*')"></span>
+            </div>
+
+            <div class="row">
+                <input type="button" class="block" value="1" onclick="disp('1')"></input>
+                <input type="button" class="block" value="2" onclick="disp('2')"></input>
+                <input type="button" class="block" value="3" onclick="disp('3')"></input>
+                <input type="button" class="block" value="-" onclick="disp('-')"></input>
+            </div>
+            
+            <div class="row">
+                <input type="button" class="block" value="0" onclick="disp('0')"></input>
+                <input type="button" class="block" value="." onclick="disp('.')"></input>
+                <input type="button" class="block" value="=" onclick="calc()"></input>
+                <input type="button" class="block" value="+" onclick="disp('+')"></input>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
